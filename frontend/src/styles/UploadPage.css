@@ -1,0 +1,25 @@
+.upload-page{
+  z-index: 999;
+}
+.upload-button {
+    width: 400px;
+    height: 50px;
+    background-color: #01d4fe;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-button:hover {
+    background-color: #01f1fd;
+  }
+
+  .upload-text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; 
+    line-height: 1.5; 
+  }
