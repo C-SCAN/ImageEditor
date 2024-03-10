@@ -1,0 +1,21 @@
+.login-field {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .login-field label {
+    top: 10%;
+    left: 10%;
+    width: 20%;
+    padding: 10px;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 10px;
+  }
+  .login-field input[type="text"] {
+    top: 10%;
+    left : 30%;
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }

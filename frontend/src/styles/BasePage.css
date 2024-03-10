@@ -1,0 +1,28 @@
+.logo {
+
+    width: 100px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Set position to absolute */
+    top: 10px; /* Align the image to the top */
+    left: 10px; /* Align the image to the left */
+  }
+.logo-text {
+  height: auto; /* Maintain aspect ratio */
+  position: absolute; /* Set position to absolute */
+  top: 10px; /* Align the image to the top */
+  left: 130px; /* Align the image to the left */
+}
+  @keyframes rotation {
+
+    from {
+  
+      transform: rotate(0deg);
+  
+    }
+  
+    to {
+  
+      transform: rotate(359deg);
+  
+    }
+  }
