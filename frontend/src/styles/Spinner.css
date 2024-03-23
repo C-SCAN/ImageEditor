@@ -1,21 +1,22 @@
 .spinning-logo {
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    animation: rotation 5s linear infinite;
+  width: 150px; /* Set the width of the image */
+  position: absolute; /* Set position to absolute */
+  top: 10px; /* Align the image to the top */
+  left: 12px; /* Align the image to the left */
+  animation: rotation 5s linear infinite;
+  object-position: center;
 }
-
 @keyframes rotation {
 
-    from {
-  
-      transform: rotate(0deg);
-  
-    }
-  
-    to {
-  
-      transform: rotate(359deg);
-  
-    }
+  from {
+
+    transform: rotate(0deg);
+
   }
+
+  to {
+
+    transform: rotate(359deg);
+
+  }
+}

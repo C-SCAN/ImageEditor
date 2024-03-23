@@ -7,7 +7,7 @@ const signUpRouter = require('./routes/signUp');
 const restaurantRouter = require('./routes/restaurantRoutes');
 
 const app = express();
-const PORT = 8000;
+const PORT = 3000;
 app.use(express.json());
 
 app.use(cors());
@@ -24,4 +24,4 @@ app.use('/api/signUp', signUpRouter);
 
 
 DBConnection();
-app.listen(PORT, ()=> console.log(`Server is running on PORT ${8000}`));
+app.listen(PORT, ()=> console.log(`Server is running on PORT ${PORT}`));

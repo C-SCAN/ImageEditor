@@ -1,14 +1,17 @@
-import './styles/App.css';
-import LoginPage from './pages/LoginPage';
+import { BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
+import UploadPage from "./pages/UploadPage";
+import SignUpPage from "./pages/SignUpPage";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <LoginPage/>
-      </header>
-    </div>
+    <BrowserRouter>
+       <Routes>
+        <Route path="/" exact element={<Navigate to="/upload" replace/>}/>
+         <Route path="login" index element={<LoginPage/>}/>
+         <Route path="signup" element={<SignUpPage/>}/>
+         <Route path="upload" element={<UploadPage/>}/>
+       </Routes>
+    </BrowserRouter>
   );
 }
-
-export default App;
